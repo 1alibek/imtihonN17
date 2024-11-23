@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khan Academy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../svg/logo-icon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="flex">
+      <div class="bg-white w-[300px] h-[100vh] fixed border-r-2 max-[1050px]:w-[200px]">
+        <a
+          class="flex items-center justify-center pl-[-50px] pt-[25px] max-[1050px]:hidden "
+          href="./index.html"
+        >
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <input class="hidden" type="checkbox" id="check" />
+        <div class="px-6 mt-12 nav-ul">
+          <label class="label" for="check"
+            ><i class="fa-solid fa-x hidden"></i
+          ></label>
+          <a
+            class="flex items-center justify-center hidden logo-img pl-[-50px] pt-[25px]"
+            href="./index.html"
+          >
+            <img src="./img/logo.png" alt="" />
+          </a>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box1.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Umumiy</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box2.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Mening kurslarim</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box3.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Profilim</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box4.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Topshiriqlar</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box5.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Viktorina</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box6.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">Xabarlar</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-12 hoverteg">
+            <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
+            <div class="flex items-center gap-4 py-4">
+              <img src="./svg/box7.svg" alt="" />
+              <p class="text-[18px] text-pteg font-medium">To’lovlar tarixi</p>
+            </div>
+          </div>
+          <div class="border-t-2">
+            <a href="./index.html">
+              <div class="flex items-center gap-4 py-4">
+                <img src="./svg/box8.svg" alt="" />
+                <p class="text-[18px] text-pteg font-medium">Chiqish</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pl-[300px] w-full border-2 py-3">
+        <div class="flex items-center justify-between px-6">
+          <div>
+            <label class="label" for="check"
+              ><i class="fa-solid fa-bars hidden text-[18px]"></i
+            ></label>
+              <button class="px-4 py-1 rounded-full bg-buttonbg text-ateg">
+            Asosiy menu
+          </button>
+          </div>
+        
+          <div class="flex items-center gap-4">
+            <button
+              class="px-4 py-1 rounded-full bg-white text-ateg flex items-center gap-2 border-2"
+            >
+              22.04.2022 <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="flex items-center border-2 rounded-full px-2 py-1">
+              <input type="text" placeholder="Nimani qidiramiz?" />
+              <img src="./svg/search.svg" alt="" />
+            </div>
+            <img src="./img/notification.png" alt="" />
+            <img src="./img/messeges.png" alt="" />
+            <div class="flex items-center gap-2">
+              <p>
+                Kalimetov <br />
+                Dilmurod
+              </p>
+              <img src="./img/profil1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- spinner -->
+    <div
+      class="load w-full h-[100vh] bg-[#000000aa] fixed top-0 left-0 text-white flex items-center justify-center"
+    >
+      <div uk-spinner="ratio: 2"></div>
+    </div>
+    <!-- spinner -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

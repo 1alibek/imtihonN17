@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.label {
+  display: none;
+}
+@media (max-width: 1050px) {
+  .nav-ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    z-index: 222;
+  }
+  .btn-button {
+    display: none;
+  }
+  .profil-img {
+    display: block;
+  }
+  .dashboard-page {
+    display: block;
+  }
+  .nav-ul a {
+    color: #1d72d2;
+  }
+
+  .logo-img {
+    display: block;
+  }
+  .label {
+    display: block;
+  }
+  #check:checked ~ .nav-ul {
+    left: 0;
+  }
+}
+.icon {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.school {
+  box-shadow: 0 10px 16px 0 rgba(32, 81, 137, 0.06);
+}
+.liner {
+  position: relative;
+  overflow: hidden;
+}
+.box {
+  transition: 0.7s all;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -400px;
+  padding: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 15.62%,
+    rgba(32, 81, 137, 0.9) 100%
+  );
+}
+
+.liner:hover .box {
+  bottom: 0px;
+}
+.bgimg {
+  background-image: url(../img/design\ element.png);
+}
+
+.liner2 {
+  position: relative;
+  overflow: hidden;
+}
+.box2 {
+  transition: 0.7s all;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -400px;
+  padding: 20px;
+  padding-left: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0.99%,
+    rgba(32, 81, 137, 0.9) 100%
+  );
+}
+
+.liner2:hover .box2 {
+  bottom: 0px;
+}
+
+
