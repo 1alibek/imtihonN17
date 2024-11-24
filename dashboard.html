@@ -24,48 +24,53 @@
   </head>
   <body>
     <main class="flex">
-      <div class="bg-white w-[300px] h-[100vh] fixed border-r-2 max-[1050px]:w-[200px]">
+      <div
+        class="bg-white w-[300px] h-[100vh] fixed border-r-2 max-[1480px]:w-[0px]"
+      >
         <a
-          class="flex items-center justify-center pl-[-50px] pt-[25px] max-[1050px]:hidden "
+          class="flex items-center justify-center pl-[-50px] pt-[25px]"
           href="./index.html"
         >
-          <img src="./img/logo.png" alt="" />
+          <img class="max-[1480px]:hidden" src="./img/logo.png" alt="" />
         </a>
         <input class="hidden" type="checkbox" id="check" />
-        <div class="px-6 mt-12 nav-ul">
-          <label class="label" for="check"
-            ><i class="fa-solid fa-x hidden"></i
-          ></label>
-          <a
-            class="flex items-center justify-center hidden logo-img pl-[-50px] pt-[25px]"
-            href="./index.html"
-          >
-            <img src="./img/logo.png" alt="" />
-          </a>
+        <div class="px-6 mt-12 nav-ul2">
+          <div class="flex items-center gap-6">
+            <label class="label" for="check"
+              ><i class="fa-solid fa-x hidden"></i
+            ></label>
+            <a
+              class="flex items-center imglogo justify-center logo-img pl-[-50px] pt-[25px]"
+              href="./index.html"
+            >
+              <img src="./img/logo.png" alt="" />
+            </a>
+          </div>
+
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box1.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">Umumiy</p>
             </div>
           </div>
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box2.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">Mening kurslarim</p>
             </div>
           </div>
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box3.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">Profilim</p>
             </div>
           </div>
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box4.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">Topshiriqlar</p>
             </div>
@@ -79,19 +84,19 @@
           </div>
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box6.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">Xabarlar</p>
             </div>
           </div>
           <div class="flex items-center gap-12 hoverteg">
             <span class="rounded-[10px] w-[4px] h-[50px] bg-teg hidden"></span>
-            <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-4 py-4 max-[1480px]:py-2">
               <img src="./svg/box7.svg" alt="" />
               <p class="text-[18px] text-pteg font-medium">To’lovlar tarixi</p>
             </div>
           </div>
-          <div class="border-t-2">
+          <div class="border-t-2 max-[1480px]:border-none">
             <a href="./index.html">
               <div class="flex items-center gap-4 py-4">
                 <img src="./svg/box8.svg" alt="" />
@@ -101,35 +106,401 @@
           </div>
         </div>
       </div>
-      <div class="pl-[300px] w-full border-2 py-3">
-        <div class="flex items-center justify-between px-6">
-          <div>
-            <label class="label" for="check"
-              ><i class="fa-solid fa-bars hidden text-[18px]"></i
-            ></label>
-              <button class="px-4 py-1 rounded-full bg-buttonbg text-ateg">
-            Asosiy menu
-          </button>
-          </div>
-        
-          <div class="flex items-center gap-4">
-            <button
-              class="px-4 py-1 rounded-full bg-white text-ateg flex items-center gap-2 border-2"
-            >
-              22.04.2022 <i class="fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="flex items-center border-2 rounded-full px-2 py-1">
-              <input type="text" placeholder="Nimani qidiramiz?" />
-              <img src="./svg/search.svg" alt="" />
+      <div class="pl-[300px] max-[1480px]:pl-[0px] w-full">
+        <div class="border-b-2 py-3">
+          <div class="flex items-center justify-between px-6">
+            <div class="flex items-center gap-6">
+              <label class="label" for="check"
+                ><i class="fa-solid fa-bars hidden text-[18px]"></i
+              ></label>
+              <button
+                class="px-4 py-1 rounded-full bg-buttonbg text-ateg max-[430px]:hidden"
+              >
+                Asosiy menu
+              </button>
             </div>
-            <img src="./img/notification.png" alt="" />
-            <img src="./img/messeges.png" alt="" />
-            <div class="flex items-center gap-2">
-              <p>
-                Kalimetov <br />
-                Dilmurod
-              </p>
-              <img src="./img/profil1.png" alt="" />
+
+            <div class="flex items-center gap-4">
+              <button
+                class="px-4 py-1 rounded-full bg-white text-ateg flex items-center gap-2 border-2 max-[670px]:hidden"
+              >
+                22.04.2022 <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div
+                class="flex items-center border-2 rounded-full px-2 py-1 max-[1480px]:hidden"
+              >
+                <input type="text" placeholder="Nimani qidiramiz?" />
+                <img src="./svg/search.svg" alt="" />
+              </div>
+              <img src="./img/notification.png" alt="" />
+              <img src="./img/messeges.png" alt="" />
+              <div class="flex items-center gap-2">
+                <p class="max-[550px]:hidden">
+                  Kalimetov <br />
+                  Dilmurod
+                </p>
+                <img src="./img/profil1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-buttonbg p-5">
+          <h1 class="font-bold text-ateg text-[20px]">Umumiy</h1>
+          <div
+            class="flex items-start gap-4 max-[1480px]:justify-center max-[1200px]:flex-col"
+          >
+            <div>
+              <div
+                class="bg-white rounded-lg py-4 px-6 flex items-center gap-4 w-[fit-content] mt-6 max-[1200px]:flex-col max-[1200px]:m-auto max-[1200px]:mt-4"
+              >
+                <div class="flex items-center gap-4">
+                  <img src="./img/icon (8).png" alt="" />
+                  <div>
+                    <div class="flex items-center">
+                      <h1 class="font-bold text-[40px]">4</h1>
+                      <button
+                        class="px-2 py-1 rounded-full bg-f4 text-b70 ml-[60px] max-[450px]:ml-[40px]"
+                      >
+                        +35%
+                      </button>
+                    </div>
+                    <h1>
+                      Ro’yxatdan <br />
+                      o’tilgan kurslar
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 border-l-2 pl-6 max-[450px]:border-none max-[450px]:pl-0">
+                  <img src="./img/icon (9).png" alt="" />
+                  <div>
+                    <div class="flex items-center justify-between">
+                      <h1 class="font-bold text-[40px]">2</h1>
+                      <button
+                        class="px-2 py-1 rounded-full bg-[#fffae7] text-[#ecc744] ml-[60px] max-[350px]:ml-[40px]"
+                      >
+                        +35%
+                      </button>
+                    </div>
+                    <h1>
+                      Amaldagi <br />
+                      kurslar
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 border-l-2 pl-6 max-[450px]:border-none max-[450px]:pl-0">
+                  <img src="./img/icon (10).png" alt="" />
+                  <div>
+                    <div class="flex items-center justify-between">
+                      <h1 class="font-bold text-[40px]">2</h1>
+                      <button
+                        class="px-2 py-1 rounded-full bg-[#f1f8ff] text-teg ml-[60px] max-[350px]:ml-[40px]"
+                      >
+                        +35%
+                      </button>
+                    </div>
+                    <h1>
+                      Tugatilgan <br />
+                      kurslar
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-6 mt-6 max-[1200px]:flex-col">
+                <div class="bg-white p-4 rounded-lg w-[fit-content]">
+                  <div
+                    class="flex items-center justify-between py-3 border-b-2"
+                  >
+                    <h1 class="font-medium text-[18px]">Mening faolligim</h1>
+                    <button
+                      class="flex items-center gap-2 text-[12px] text-[#8a90a5] px-2 py-1 border-2 rounded-full"
+                    >
+                      Haftalik <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div class="flex items-center mt-4">
+                    <div class="flex flex-col gap-3 px-2">
+                      <p>50</p>
+                      <p>40</p>
+                      <p>30</p>
+                      <p>20</p>
+                      <p>10</p>
+                    </div>
+                    <div>
+                      <img src="./svg/natija.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between pl-9">
+                    <p>Du</p>
+                    <p>Se</p>
+                    <p>CHo</p>
+                    <p>Pa</p>
+                    <p>Ju</p>
+                    <p>SHa</p>
+                    <p>Ya</p>
+                  </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg w-[fit-content]">
+                  <div class="flex items-center py-3 border-b-2">
+                    <h1 class="font-medium text-[18px]">Topshiriqlar</h1>
+                    <button
+                      class="flex items-center gap-2 text-[12px] text-[#8a90a5] px-2 py-1 border-2 rounded-full ml-[45px]"
+                    >
+                      Haftalik <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div class="w-[80%] rounded-full bg-[#f1f8ff] py-1 pl-1 mt-3">
+                    <div class="w-[60%] rounded-full bg-teg h-[8px]"></div>
+                  </div>
+                  <div class="w-[60%] rounded-full bg-[#fffae7] py-1 pl-1 mt-3">
+                    <div
+                      class="w-[30%] rounded-full bg-[#ecc744] h-[8px]"
+                    ></div>
+                  </div>
+                  <div class="w-[70%] rounded-full bg-[#f4fff4] py-1 pl-1 mt-3">
+                    <div
+                      class="w-[40%] rounded-full bg-[#70c63b] h-[8px]"
+                    ></div>
+                  </div>
+                  <div class="flex flex-col gap-2 mt-6">
+                    <div class="flex items-center gap-3">
+                      <div class="w-3 h-3 rounded-full bg-teg"></div>
+                      <h1>Bajarilgan</h1>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <div class="w-3 h-3 rounded-full bg-[#ecc744]"></div>
+                      <h1>Bajarilmagan</h1>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <div class="w-3 h-3 rounded-full bg-[#70c63b]"></div>
+                      <h1>Davom etayotgan</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-12 mt-6 max-[1200px]:flex-col">
+                <div class="bg-white p-4 rounded-lg w-[fit-content]">
+                  <div
+                    class="flex items-center py-3 border-b-2 justify-between"
+                  >
+                    <h1 class="font-medium text-[18px]">Viktorinalar</h1>
+                    <button
+                      class="flex items-center gap-2 text-[12px] text-[#8a90a5] px-2 py-1 border-2 rounded-full"
+                    >
+                      Haftalik <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div>
+                    <div
+                      class="flex items-center justify-between gap-4 border-b-2 py-3 max-[450px]:flex-col"
+                    >
+                      <div class="flex items-center gap-4">
+                        <img src="./img/icon (11).png" alt="" />
+                        <h1 class="font-semibold">
+                          Ma’lumotlar tuzilmasi <br />
+                          <span class="font-normal text-[12px]"
+                            >Bugun, 16:30</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#f4fff4] text-[#70c63b]"
+                      >
+                        Muvaffaqqiyatli
+                      </button>
+                    </div>
+
+                    <div
+                      class="flex items-center justify-between gap-4 border-b-2 py-3 max-[450px]:flex-col"
+                    >
+                      <div class="flex items-center gap-4">
+                        <img src="./img/icon (11).png" alt="" />
+                        <h1 class="font-semibold">
+                          HTML va CSS haqida<br />
+                          <span class="font-normal text-[12px]"
+                            >15-aprel, 22:00</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#fffae7] text-[#ecc744]"
+                      >
+                        Kutilayotgan
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-between gap-4 py-3 max-[450px]:flex-col">
+                      <div class="flex items-center gap-4">
+                        <img src="./img/icon (11).png" alt="" />
+                        <h1 class="font-semibold">
+                          Phyton<br />
+                          <span class="font-normal text-[12px]"
+                            >23-mart, 09:30</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#fffae7] text-[#ecc744]"
+                      >
+                        Kutilayotgan
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg w-[fit-content]">
+                  <div
+                    class="flex items-center py-3 border-b-2 justify-between"
+                  >
+                    <h1 class="font-medium text-[18px]">To’lovlar tarixi</h1>
+                    <button
+                      class="flex items-center gap-2 text-[12px] text-[#8a90a5] px-2 py-1 border-2 rounded-full"
+                    >
+                      Yillik <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div>
+                    <div
+                      class="flex items-center justify-between gap-12 border-b-2 py-3 max-[450px]:flex-col"
+                    >
+                      <div class="flex items-center gap-6">
+                        <img src="./img/icon (12).png" alt="" />
+                        <h1 class="font-semibold">
+                          1-modul <br />
+                          <span class="font-normal text-[12px]"
+                            >20-yanvar, 2022-yil</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#f1f8ff] text-teg"
+                      >
+                        299 000 UZS
+                      </button>
+                    </div>
+                    <div
+                      class="flex items-center justify-between gap-8 border-b-2 py-3 max-[450px]:flex-col"
+                    >
+                      <div class="flex items-center gap-4">
+                        <img src="./img/icon (12).png" alt="" />
+                        <h1 class="font-semibold">
+                          2-modul <br />
+                          <span class="font-normal text-[12px]"
+                            >12-fevral, 2022-yil</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#f1f8ff] text-teg"
+                      >
+                        299 000 UZS
+                      </button>
+                    </div>
+                    <div
+                      class="flex items-center justify-between gap-8 border-b-2 py-3 max-[450px]:flex-col"
+                    >
+                      <div class="flex items-center gap-4">
+                        <img src="./img/icon (12).png" alt="" />
+                        <h1 class="font-semibold">
+                          3-modul <br />
+                          <span class="font-normal text-[12px]"
+                            >19-mart, 2022-yil</span
+                          >
+                        </h1>
+                      </div>
+                      <button
+                        class="rounded-full px-4 py-2 bg-[#f1f8ff] text-teg"
+                      >
+                        299 000 UZS
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white mt-5 rounded-lg p-4 max-[1200px]:m-auto">
+              <div class="flex items-center justify-between py-2">
+                <h1 class="font-medium text-[18px]">Profilim</h1>
+                <img src="./svg/menu.svg" alt="" />
+              </div>
+              <div>
+                <img class="m-auto" src="./img/photo.png" alt="" />
+                <h1 class="font-medium text-[22px] text-center">
+                  Kalimbetov Dilmurod
+                </h1>
+                <p class="text-center">O’quvchi</p>
+                <div class="flex items-center flex-col gap-4">
+                  <div class="flex items-center gap-2 mt-4">
+                    <img src="./img/icon (13).png" alt="" />
+                    <div>
+                      <h1 class="font-medium text-[12px]">
+                        <span class="font-normal text-[12px]"
+                          >Telefon raqamim</span
+                        >
+                        <br />
+                        (90) 723 45 45
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon (14).png" alt="" />
+                    <div>
+                      <h1 class="font-medium text-[12px]">
+                        <span class="font-normal text-[12px]">Manzilim</span>
+                        <br />
+                        Toshkent sh. Yun.
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center justify-between py-2 mt-6">
+                <h1 class="font-medium text-[18px]">Xabarlar</h1>
+                <img src="./svg/menu.svg" alt="" />
+              </div>
+              <div class="border-2 rounded-lg p-4 flex items-center gap-2 mt-2">
+                <div class="flex items-center gap-2">
+                  <img src="./img/icon (15).png" alt="" />
+                  <h1 class="font-medium text-[16px]">
+                    Wade Warren <br />
+                    <span class="font-normal text-[12px]"
+                      >Salom, kechagi topshiriqlarni ...</span
+                    >
+                  </h1>
+                </div>
+                <div class="flex items-center flex-col">
+                  <p>11:23</p>
+                  <img src="./img/notification (1).png" alt="" />
+                </div>
+              </div>
+              <div class="border-2 rounded-lg p-4 flex items-center gap-2 mt-2">
+                <div class="flex items-center gap-2">
+                  <img src="./img/icon (15).png" alt="" />
+                  <h1 class="font-medium text-[16px]">
+                    Wade Warren <br />
+                    <span class="font-normal text-[12px]"
+                      >Salom, kechagi topshiriqlarni ...</span
+                    >
+                  </h1>
+                </div>
+                <div class="flex items-center flex-col">
+                  <p>11:23</p>
+                  <img src="./img/notification (1).png" alt="" />
+                </div>
+              </div>
+              <div class="border-2 rounded-lg p-4 flex items-center gap-2 mt-2">
+                <div class="flex items-center gap-2">
+                  <img src="./img/icon (15).png" alt="" />
+                  <h1 class="font-medium text-[16px]">
+                    Wade Warren <br />
+                    <span class="font-normal text-[12px]"
+                      >Salom, kechagi topshiriqlarni ...</span
+                    >
+                  </h1>
+                </div>
+                <div class="flex items-center flex-col">
+                  <p>11:23</p>
+                  <img src="./img/notification (1).png" alt="" />
+                </div>
+              </div>
+              <button class="text-teg py-2 w-full rounded-lg bg-buttonbg mt-4">Ko’proq ko’rish</button>
             </div>
           </div>
         </div>
